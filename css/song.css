@@ -1,0 +1,27 @@
+body{
+	text-align: center;
+	background: url("../images/group.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 90vh;
+}
+.profile{
+	margin: 25%;
+
+}
+audio{
+	transition: all 0.3s linear;
+	border-radius: 30px;
+	padding: 2px 0;
+}
+audio:hover , audio:active{
+	box-shadow: 6px 5px 15px rgba(0, 0, 0,0.4);
+	transform:scale(1.03);
+	padding: 0;
+	border-radius: 30px;
+}
+audio:focus {
+	box-shadow: 0 0 0 0;
+	outline:0;
+
